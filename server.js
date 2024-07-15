@@ -25,7 +25,7 @@ app.use(cors());
 app.use("/api", apiRoutes);
 
 // Application initializing server at PORT
-// app.listen(PORT, () => console.log(`Server is running at ${PORT}`));
-app.listen(process.env.ALWAYSDATA_HTTPD_PORT,process.env.ALWAYSDATA_HTTPD_IP,function () {
-    console.log("Hey,I am Movies Api Backend Server Here")
-})
+app.listen(PORT, () => console.log(`Server is running at ${PORT}`));
+// app.listen(process.env.ALWAYSDATA_HTTPD_PORT,process.env.ALWAYSDATA_HTTPD_IP,function () {
+//     console.log("Hey,I am Movies Api Backend Server Here")
+// })
