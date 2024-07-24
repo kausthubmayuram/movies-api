@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 // Application using Cors
-app.use(cors());
+// app.use(cors());
 
 // Application importing routes from routes folder
 app.use("/api", apiRoutes);
